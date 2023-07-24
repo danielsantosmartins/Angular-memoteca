@@ -38,7 +38,7 @@
         <span>Modelo 1</span>
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
-          <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azul" />
+          <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azul" />
           <p class="conteudo">{{ pensamento.conteudo }}</p>
           <p class="autoria">
             <b>{{ pensamento.autoria }}</b>
@@ -100,9 +100,7 @@
     </div>
     <div class="acoes">
       <button (click)="criarPensamento()" class="botao">Salvar</button>
-      <button routerLink="/listarPensamento" (click)="cancelar()" class="botao">
-        Cancelar
-      </button>
+      <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
   </form>
 </section>
