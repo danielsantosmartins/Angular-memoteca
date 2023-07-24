@@ -12,7 +12,7 @@ export class CriarPensamentoComponent {
   pensamento: Pensamento = {
     conteudo: '',
     autoria: '',
-    modelo: '',
+    modelo: 'modelo1',
   };
   constructor(private service: PensamentoService, private router: Router) {}
 
